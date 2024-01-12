@@ -58,7 +58,7 @@ file:
 
 [source,console]
 --------------------------------------------------
-POST api/detection_engine/rules/_export?exclude_export_details=true&file_name=exported_rules.ndjson
+POST kbn:/api/detection_engine/rules/_export?exclude_export_details=true&file_name=exported_rules.ndjson
 {
   "objects": [
     {
